@@ -1,0 +1,30 @@
+.floartingDiv{
+    display: flex;
+    box-shadow: var(--smboxShadow);
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: space-around; */
+   height: 10vh;
+   width:12rem;
+    background-color: white;
+    position: relative;
+    /* left: 50%; */
+    border-radius: 12px;
+    /* color: var(--gray); */
+}
+
+.floartingDiv>*{
+    flex: 1;
+    font-weight: bold;
+    overflow: hidden;
+    
+}
+.f-img{
+    /* flex:1; */
+    position: relative;
+    transform: scale(0.4);
+    
+}
+
+
+

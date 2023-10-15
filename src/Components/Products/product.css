@@ -1,0 +1,29 @@
+.product-div{
+    margin-top: 10rem;
+    
+    
+}
+.product-div>h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    
+}
+.product-cards-div{
+    display: flex;
+    justify-content: space-around;
+}
+.product-cards-div>*:hover{
+    transform: scale(1.3);
+}
+@media screen and (max-width: 480px) {
+    .product-div{
+        margin-top: 15rem;
+       
+    }
+    .product-cards-div{
+        display: flex;
+        flex-direction: column;
+    }
+  }

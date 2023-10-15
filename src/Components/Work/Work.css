@@ -1,0 +1,31 @@
+.work{
+    display: flex;
+    justify-content: space-between;
+}
+.w-left{
+    flex:1;
+}
+.w-right{
+   
+    flex:1;
+    
+}
+.white-circle{
+    
+    height:20rem;
+    width: 20rem;
+    background-color:  white;
+    box-shadow: var(--smboxShadow);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+}
+.w-right>*{
+    z-index: 1;
+}
+.white-circle.img {
+    background-color: rgb(249, 245, 235);
+}

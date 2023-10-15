@@ -1,0 +1,48 @@
+.n-wrapper{
+    display:flex;
+    justify-content: space-between;
+    height:10vh;
+    
+    /* top:0; */
+}
+.nav-left{
+    display: flex;
+}
+.smallshoe{
+    transform: scale(0.9);
+}
+.n-name{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav-right{
+    display: flex;
+}
+.nav-list{
+    margin-right: 2rem;
+}
+.nav-list>ul{
+    flex:1;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem; 
+}
+.nav-button{
+    flex: 2; 
+    /* width hai */
+
+    font-size: 1rem;
+}
+.nav-list>ul :hover{
+   color: var(--orange); 
+   cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    .n-wrapper{
+        font-size: 15px;
+        
+    }
+    .nav-right{
+        display: flex;
+    }
+  }
